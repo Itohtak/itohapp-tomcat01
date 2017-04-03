@@ -21,7 +21,7 @@ public class SimpleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-        response.getWriter().print("Hello World!");
+        response.getWriter().print("Spring has come!!! (2017/04/03) Hello World on April 3th!!!");
     }
 
 }
