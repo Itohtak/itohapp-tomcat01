@@ -6,4 +6,4 @@ applications:
   name: itohapp-tomcat01
   host: itohapp-tomcat01
   disk_quota: 1024M
-  buildpack: java_buildpack
+  buildpack: https://github.com/cloudfoundry-community/jboss-buildpack.git
