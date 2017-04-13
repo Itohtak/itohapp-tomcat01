@@ -1,9 +1,9 @@
 applications:
 - path: target/TomcatHelloWorldApp.war
-  memory: 512M
+  memory: 256M
   instances: 1
   domain: mybluemix.net
   name: itohapp-tomcat01
   host: itohapp-tomcat01
-  disk_quota: 1536M
-  buildpack: https://github.com/cloudfoundry-community/jboss-buildpack.git
+  disk_quota: 1024M
+  buildpack: java_buildpack
